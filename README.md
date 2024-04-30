@@ -4,6 +4,8 @@ Hi, my name is Nikita, I'm from Russia and I am a fullstack web developer. I've 
 
 My projects you can see in the repositories so I won't mention them here. Every project has a detailed README file so you can read it.
 
+You can also visit my website: https://nikitakovalenko111.github.io/NikitaKovalenko111/
+
 # What technologies do I know?
 
 I'm still learning but I know a big stack of technologies now, such as:
