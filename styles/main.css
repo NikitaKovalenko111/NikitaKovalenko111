@@ -1,0 +1,53 @@
+.aboutme {
+    padding: 20px 0;
+}
+
+.aboutme__container h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.aboutme__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aboutme__main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutme__main p {
+    text-align: justify;
+    line-height: 160%;
+}
+
+.aboutme__techs {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.aboutme__techs-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.techs-list__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.techs-list__inner div {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    gap: 15px;
+}
+
+.techs-list__inner div img {
+    width: 35px;
+}

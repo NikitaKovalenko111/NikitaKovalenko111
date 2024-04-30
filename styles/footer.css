@@ -1,0 +1,70 @@
+.footer {
+    padding: 20px 0;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+.relative {
+    position: relative !important;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.footer__github img {
+    width: 32px;
+}
+
+.footer__gmail {
+    width: 38px;
+}
+
+.footer__gmail:hover {
+    cursor: pointer;
+}
+
+@keyframes notification {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.footer__notification {
+    background-color: #58e036;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    letter-spacing: 2px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 0;
+}
+
+.animation {
+    animation: notification 3s linear alternate forwards;
+    animation-iteration-count: 2;
+}
+
+.footer__email {
+    height: 70px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
